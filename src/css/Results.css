@@ -1,0 +1,68 @@
+.div-results{
+    align-items: center;
+    background: #00000088;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+}
+
+.div-results-info{
+    align-items: center;
+    background-color: #888;
+    display: flex;
+    flex-direction: column;
+    height: 64vh;
+    justify-content: space-between;
+    min-width: 240px;
+    padding: 16px;
+    width: 36vw;
+}
+
+.div-results-info h2{
+    font-size: 32px;
+}
+
+.div-results-info p{
+    font-size: 32px;
+}
+
+.div-results-info button {
+    background-color: #bbb;
+    border: 2px solid #000;
+    cursor: pointer;
+    font-size: 32px;
+    height: 84px;
+    min-width: 200px;
+    width: 36%;
+}
+
+.div-results-graph{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.div-results-graph-guess{
+    display: flex;
+    gap: 8px;
+}
+
+.div-results-graph-letter{
+    border: 2px solid #000;
+    min-height: 28px;
+    min-width: 28px;
+    padding: 1vw;
+}
+
+@media (min-width: 2100px) {
+    .div-results-info h2{
+        font-size: 72px;
+    }
+
+    .div-results-info p{
+        font-size: 72px;
+    }
+
+}

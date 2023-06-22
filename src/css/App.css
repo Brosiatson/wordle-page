@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Abel';
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  align-items: center;
+  background: linear-gradient(to right top, #161616, #272727);
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  height: 100vh;
+  justify-content: space-between;
+  overflow-x: hidden;
+  width: 100vw;
+}
